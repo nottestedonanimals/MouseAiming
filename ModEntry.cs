@@ -42,13 +42,9 @@ namespace MouseAiming {
 
                 if (((slope > 1 || slope < -1) && run < 0 && rise < 0) || ((slope < -1) && run > 0 && rise < 0) || (slope > 1 && run > 0 && rise < 0)) {
 
-                    this.Monitor.Log($"Changed Position: 0", LogLevel.Debug);
-
                     player.faceDirection(0);
 
                 } else if ((slope > -1 && run > 0 && rise < 0) || (slope < 1 && run > 0 && rise > 0)) {
-
-                    this.Monitor.Log($"Changed Position: 1", LogLevel.Debug);
 
                     player.faceDirection(1);
 
@@ -56,13 +52,9 @@ namespace MouseAiming {
                 
                 else if (((slope > 1 || slope < -1) && run > 0 && rise > 0) || ((slope < -1) && run < 0 && rise > 0) || (slope > 1 && run > 0 && rise < 0)) {
 
-                    this.Monitor.Log($"Changed Position: 2", LogLevel.Debug);
-
                     player.faceDirection(2);
 
                 } else if ((slope > -1 && run < 0 && rise > 0) || (slope < 1 && run < 0 && rise < 0)) {
-
-                    this.Monitor.Log($"Changed Position: 3", LogLevel.Debug);
 
                     player.faceDirection(3);
 
