@@ -1,7 +1,7 @@
 {
   "Name": "MouseAiming",
   "Author": "nottestedonanimals",
-  "Version": "0.5.0",
+  "Version": "0.6.0",
   "Description": "When using melee weapons, aim where the cursor is pointing, not where the farmer is facing",
   "EntryDll":  "MouseAiming.dll",
   "UniqueID": "nottestedonanimals.MouseAiming",
